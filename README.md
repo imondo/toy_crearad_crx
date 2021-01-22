@@ -1,24 +1,14 @@
-# book_adblock
+# toy_crearad_crx
 
-## Project setup
-```
-yarn install
-```
+由于本人上班摸鱼看盗版小说时，看到不可描述广告时，影响我的阅读体验，所以就粗暴的写了这个谷歌插件😂
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 使用
 
-### Compiles and minifies for production
-```
+```shell
+yarn
+
 yarn build
+
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+打包出 `dist` 目录，直接加载已解压扩展程序
