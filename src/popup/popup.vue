@@ -1,12 +1,14 @@
 <template>
-  <a-button type="link" href="options.html">options</a-button>
-  |
-  <a-button type="link" href="popup.html">popup</a-button>
+  <Setting />
 </template>
 
 <script>
+import Setting from '../options/Setting';
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Setting
+  }
 }
 </script>
 
@@ -18,8 +20,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-a {
-  color: #333;
 }
 </style>
