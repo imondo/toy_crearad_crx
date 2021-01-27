@@ -19,7 +19,12 @@ function getItem(key) {
 }
 
 function main() {
-  Array.from(document.querySelectorAll('img')).forEach(ele => {
+  const $imgs = document.querySelectorAll('img');
+  const $bingo = document.querySelectorAll('bingo');
+  Array.from($imgs).forEach(ele => {
+    ele.remove();
+  })
+  Array.from($bingo).forEach(ele => {
     ele.remove();
   })
 }
